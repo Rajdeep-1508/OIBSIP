@@ -2,16 +2,17 @@
 This Repository consists of two projects of java development.
 
 ## ATM INTERFACE
-    This is a console based project, in this we have to first log in to an account then a list of operations are displayed to the console, using which you can change the entries in database of the particular account. These operations include:-
+This is a console based project, in this we have to first log in to an account then a list of operations are displayed to the console, using which you can change the entries in database of the particular account. These operations include:-
+
         1) To show the Transanction History.
         2) To Withdraw
         3) To Deposit
         4) To Transfer
         5) To Exit
-    You cannot create a new account using this application, but you can do the operations mentioned above using this in the existing accounts very easily.
-    You can go thorough these commands to create the accounts and create the transanction table also using MySql.
+You cannot create a new account using this application, but you can do the operations mentioned above using this in the existing accounts very easily.
+You can go thorough these commands to create the accounts and create the transanction table also using MySql.
     
-    For creating the accounts table and transanction tables the following commands are used, you have to paste these commands in your MySql command line and press enter the tables will be created and then you can use the application very conviniently::-
+For creating the accounts table and transanction tables the following commands are used, you have to paste these commands in your MySql command line and press enter the tables will be created and then you can use the application very conviniently::-
 ###
         drop database AtmDatabase;
          create database AtmDatabase;
@@ -46,5 +47,5 @@ This Repository consists of two projects of java development.
             FFF        666          666
     
 ## NUMBER GUESSING GAME
-    This is a server based servlet application, in this project you just need to connect your server and then run the code using the server.
-    When you launch the application in your server a page will open in which you have to give some input from 1 to 100 and the application will direct you whether that is the number or the number you have entered is larger of smaller than the number that is required. This is a 40 seconds game you have to guess the number within that time otherwise the game will be over and the session will be expired.
+This is a server based servlet application, in this project you just need to connect your server and then run the code using the server.
+When you launch the application in your server a page will open in which you have to give some input from 1 to 100 and the application will direct you whether that is the number or the number you have entered is larger of smaller than the number that is required. This is a 40 seconds game you have to guess the number within that time otherwise the game will be over and the session will be expired.
