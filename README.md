@@ -12,10 +12,11 @@ This Repository consists of two projects of java development.
     You can go thorough these commands to create the accounts and create the transanction table also using MySql.
     
     For creating the accounts table and transanction tables the following commands are used, you have to paste these commands in your MySql command line and press enter the tables will be created and then you can use the application very conviniently::-
-         drop database AtmDatabase;
+###
+        drop database AtmDatabase;
          create database AtmDatabase;
          connect oasis_atm;
-         CREATE TABLE ACCOUNTSTABLE(ACCNO INT PRIMARY KEY, ACCHOLDERNAME VARCHAR(26), BRANCHNAME VARCHAR(26), TRANSANCTIONID      VARCHAR(8), PASSWORD INT);
+         CREATE TABLE ACCOUNTSTABLE(ACCNO INT PRIMARY KEY, ACCHOLDERNAME VARCHAR(26), BRANCHNAME VARCHAR(26), TRANSANCTIONID VARCHAR(8), PASSWORD INT);
          INSERT INTO ACCOUNTSTABLE VALUES(111,'AAA', 'DURGAPUR', 'T111', 111);
          INSERT INTO ACCOUNTSTABLE VALUES(222,'BBB', 'UTTAPARA', 'T222', 222);
          INSERT INTO ACCOUNTSTABLE VALUES(333,'CCC', 'HINDMOTOR', 'T333', 333);
