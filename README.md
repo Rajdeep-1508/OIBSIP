@@ -35,7 +35,7 @@ This Repository consists of two projects of java development.
          INSERT INTO T555 VALUES(1,"2009-02-23","ACCOUNT CREATION",5000,0,5000);
          CREATE TABLE T666(SERIALNO INT PRIMARY KEY,DATEOFTRANSACT DATE,DESCRIPTION VARCHAR(30),CREDIT FLOAT,DEBIT FLOAT,BALANCE FLOAT);
          INSERT INTO T666 VALUES(1,"2007-10-28","ACCOUNT CREATION",4000,0,4000);
-         
+ ###        
          The Id and passwords of the above demo users are given below::
             USERS       Id      PASSWORDS
             AAA        111          111
