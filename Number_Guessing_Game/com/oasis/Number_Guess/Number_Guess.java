@@ -2,24 +2,13 @@ package com.oasis.Number_Guess;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-/*
- 
-import java.math.MathContext;
-import java.util.Enumeration;
-
-import javax.servlet.ServletContext;
- */
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-//import javax.servlet.http.HttpSessionContext;
 
-/**
- * Servlet implementation class Http
- */
 @WebServlet("/Number_Guess")
 public class Number_Guess extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -88,7 +77,7 @@ public class Number_Guess extends HttpServlet {
 				+ "<label><b>Enter your guess::</b></label>"
 				+ "<input name='num' type=\"text\"></input>"
 				+ "<br/><input type=\"submit\" name=\"submit\" value='Check number'>"
-				+ "<p><b>Session will be invalid after 10 seconds</b></p>"
+				+ "<p><b>Session will be invalid after 40 seconds</b></p>"
 				+"</form>"
 				+"</body>"
 				+ "</html>"				
